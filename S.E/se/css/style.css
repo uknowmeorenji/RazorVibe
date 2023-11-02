@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+ 
+@font-face {
+  /* primary font */
+  font-family: 'SF Pro Display Bold';
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot');
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.svg#SF Pro Display Bold')
+      format('svg');
+}
+ 
+@font-face {
+  /* secondary font */
+  font-family: 'SF Pro Display Regular';
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot');
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular')
+      format('svg');
+}
+/* desktop */
+.body {
+  max-width: 1299px;
+}
+
+#menu {
+  position: relative;
+  float: right;
+}
+
+.hero-left {
+  position: relative;
+  float: left;
+  margin-right: 50px;
+  top: -150px;
+}
+
+.RazorVibe {
+  color: white;
+  font-size: 120px;
+  font-weight: bold;
+  position: relative;
+  float: left;
+  left: 60px;
+  bottom: 1030px;
+}
+
+.hero-right {
+  position: relative;
+}
+
+.p {
+  margin-top: 10px;
+}
+
+.book-btn1 {
+  background-color: whitesmoke;
+  border-radius: 7px;
+  position: relative;
+  float: left;
+  bottom: 800px;
+  left: 610px;
+}
+.book-btn2 {
+  background-color: whitesmoke;
+  border-radius: 7px;
+  position: relative;
+  float: left;
+  bottom: 715px;
+  left: 450px;
+}
+
+.BookNow  {
+  float: right;
+  margin-top: 11px;
+  margin-left: 22px;
+  margin-right: 19px;
+}
+
+ /* mobile */
+@media only screen and (min-width: 1099px) {
+}
+@media only screen and (max-width: 1089px) {
+
+  #menu-button{
+    float: right;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 160px;
+  }
+
+  .logo {
+    margin-top: 7px;
+    margin-left: 4px;
+  }
+
+  .hero-right {
+    bottom: 220px;
+  }
+
+  .RazorVibe {
+    color: white;
+    font-size: 80px;
+    position: relative;
+    bottom: 700px;
+    left: 10px;
+  }
+
+  .p {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -200px;
+    font-family: sans-serif;
+    font-weight: 900px;
+    font-size: medium;
+  }
+
+  .book-btn1 {
+    position: relative;
+    bottom: -22px;
+    left: 112px;
+  }
+  .book-btn2 {
+    position: relative;
+    bottom: -80px;
+    left: -50px;
+    margin-bottom: 140px;
+  }
+ 
+}
